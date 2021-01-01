@@ -736,11 +736,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-<<<<<<< HEAD
 #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 408.76 }
-=======
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 500 }
->>>>>>> b530db948e3c553eb3c80bd4bbe5eeef8c6dbb5a
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1000,11 +996,7 @@
 #define XY_PROBE_SPEED (133*60)
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
-<<<<<<< HEAD
 #define Z_PROBE_SPEED_FAST (10*60)
-=======
-#define Z_PROBE_SPEED_FAST (4*60)
->>>>>>> b530db948e3c553eb3c80bd4bbe5eeef8c6dbb5a
 
 // Feedrate (mm/min) for the "accurate" probe of each point
 #define Z_PROBE_SPEED_SLOW Z_PROBE_SPEED_FAST
@@ -1325,10 +1317,7 @@
  * these options to restore the prior leveling state or to always enable
  * leveling immediately after G28.
  */
-<<<<<<< HEAD
 #define RESTORE_LEVELING_AFTER_G28
-=======
-//#define RESTORE_LEVELING_AFTER_G28
 //#define ENABLE_LEVELING_AFTER_G28
 
 /**
@@ -1339,7 +1328,6 @@
   #define LEVELING_NOZZLE_TEMP 120   // (°C) Only applies to E0 at this time
   #define LEVELING_BED_TEMP     50
 #endif
->>>>>>> b530db948e3c553eb3c80bd4bbe5eeef8c6dbb5a
 
 /**
  * Enable detailed logging of G28, G29, M48, etc.
